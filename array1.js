@@ -16,9 +16,9 @@ console.log(subjects.indexOf('Physics'));
 subjects.push("CSE");
 console.log(subjects)
 
-// to remove elements from array
+// to remove element from array
 
-subjects.pop("CSE");
+subjects.pop();
 console.log(subjects)
 
 // to add elements in first position
@@ -26,9 +26,9 @@ console.log(subjects)
 subjects.unshift("CSE");
 console.log(subjects)
 
-// to remove elements from from position
+// to remove element from first position
 
-subjects.shift("CSE");
+subjects.shift();
 console.log(subjects)
 
 // slice
